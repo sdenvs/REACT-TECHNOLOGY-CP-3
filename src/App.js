@@ -44,11 +44,11 @@ const App = () => (
       Intel, Nvidia, Qualcomm etc. Learn directly from professionals involved in
       product development.
     </p>
-    <div className="cardStyle">
+    <ul className="cardStyle">
       {cardsList.map(eachItem => (
         <CardItem details={eachItem} key={eachItem.id} />
       ))}
-    </div>
+    </ul>
   </div>
 )
 
