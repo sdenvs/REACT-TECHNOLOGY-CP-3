@@ -11,3 +11,32 @@ body {
 }
 
 /* Write CSS code here */
+* {
+  font-family: 'roboto';
+}
+.bg-container {
+  background-color: #f4faff;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+.heading {
+  color: #171f46;
+  font-size: 35px;
+  font-weight: bold;
+}
+.paragraph {
+  color: #64748b;
+  font-size: 16px;
+}
+.cardStyle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

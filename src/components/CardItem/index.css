@@ -15,3 +15,18 @@
 }
 
 /* Write CSS code here. */
+.card {
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: flex-start;
+  padding: 25px;
+  max-width: 400px;
+  margin: 20px;
+}
+.image {
+  align-self: flex-end;
+}
